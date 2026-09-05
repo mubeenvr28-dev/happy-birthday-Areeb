@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="A joyful birthday celebration — celebrating great memories, achievements, and an amazing year ahead! 🎉" />
+  <title>Happy Birthday! 🎉✨</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+       HERO SECTION
+  ════════════════════════════════════════ -->
+  <header class="hero" id="hero">
+    <div class="petals-container" id="petalsContainer" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">🎉 &nbsp; Time to Celebrate You! &nbsp; 🎂</div>
+      <h1 class="hero-title">Happy Birthday!</h1>
+      <p class="hero-subtitle">From childhood adventures to thriving across the globe —<br>wishing you the most incredible year ahead! 🚀✨</p>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ════════════════════════════════════════
+       GALLERY 1 — CHILDHOOD MEMORIES (THEN)
+  ════════════════════════════════════════ -->
+  <section class="gallery-section gallery-then" id="galleryThen">
+    <div class="gallery-header reveal">
+      <span class="gallery-tag">Back in the Day</span>
+      <h2 class="gallery-title">Where it all started!</h2>
+      <p class="gallery-sub">From endless games to zero responsibilities — those childhood days will always be unmatched.</p>
+    </div>
+
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev-btn" id="thenPrev" aria-label="Previous photo">&#8592;</button>
+
+      <div class="carousel-track-container" id="thenTrackContainer">
+        <div class="carousel-track" id="thenTrack">
+
+          <!-- Slide 1: Video -->
+          <div class="carousel-slide">
+            <video class="carousel-video" src="2026-09-05 03-02-17.mp4"
+              playsinline muted loop autoplay
+              aria-label="Childhood video memory"></video>
+            <div class="slide-caption">The golden days of endless energy and zero worries 🎞️😄</div>
+          </div>
+
+          <!-- Slide 2: Photo -->
+          <div class="carousel-slide">
+            <img src="Screenshot 2026-09-05 042542.png" alt="Childhood memory — photo 1" class="carousel-img" />
+            <div class="slide-caption">Back when our biggest debate was who got the last mango slice 🥭</div>
+          </div>
+
+          <!-- Slide 3: Photo -->
+          <div class="carousel-slide">
+            <img src="Screenshot 2026-09-05 042554.png" alt="Childhood memory — photo 2" class="carousel-img" />
+            <div class="slide-caption">Those summer days felt like they would last forever! ☀️✨</div>
+          </div>
+
+        </div>
+      </div>
+
+      <button class="carousel-btn next-btn" id="thenNext" aria-label="Next photo">&#8594;</button>
+    </div>
+
+    <div class="carousel-dots" id="thenDots" role="tablist" aria-label="Childhood photos">
+      <button class="dot active" data-index="0" aria-label="Video" role="tab"></button>
+      <button class="dot" data-index="1" aria-label="Photo 1" role="tab"></button>
+      <button class="dot" data-index="2" aria-label="Photo 2" role="tab"></button>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       GALLERY 2 — THE WOMAN YOU'VE BECOME (NOW)
+  ════════════════════════════════════════ -->
+  <section class="gallery-section gallery-now" id="galleryNow">
+    <div class="gallery-header reveal">
+      <span class="gallery-tag">The Glow Up</span>
+      <h2 class="gallery-title">Look at you now!</h2>
+      <p class="gallery-sub">Building your own path, thriving abroad, and leveling up every single year.
+      </p>
+    </div>
+
+    <div class="now-showcase">
+      <!-- Left side: The Glow Up card -->
+      <aside class="now-card now-card-left reveal">
+        <div class="now-card-tag">✨ Leveling Up</div>
+        <h3 class="now-card-heading">Living Your Best Life</h3>
+        <p class="now-card-text">
+          From running around creating chaos as kids to building an independent, stylish life overseas — watching you crush it has been so awesome to see!
+        </p>
+        <div class="now-card-quote">
+          <span class="quote-mark">“</span>
+          <em>Keep aiming high, working hard, and celebrating every win!</em>
+        </div>
+        <div class="now-card-badge-pill">🚀 Main Character Energy</div>
+      </aside>
+
+      <!-- Center: Portrait Carousel -->
+      <div class="now-carousel-container">
+        <div class="carousel-wrapper now-carousel-wrapper">
+          <button class="carousel-btn prev-btn" id="nowPrev" aria-label="Previous photo">&#8592;</button>
+
+          <div class="carousel-track-container" id="nowTrackContainer">
+            <div class="carousel-track" id="nowTrack">
+              <div class="carousel-slide">
+                <img src="1new_clean.jpeg" alt="" class="carousel-img-blur" aria-hidden="true" />
+                <img src="1new_clean.jpeg" alt="Recent photo 1" class="carousel-img" />
+                <div class="slide-caption">Always on point with the style ✨😎</div>
+              </div>
+              <div class="carousel-slide">
+                <img src="2new_clean.jpeg" alt="" class="carousel-img-blur" aria-hidden="true" />
+                <img src="2new_clean.jpeg" alt="Recent photo 2" class="carousel-img" />
+                <div class="slide-caption">Smart, ambitious, and making big moves 💼👏</div>
+              </div>
+              <div class="carousel-slide">
+                <img src="3new_clean.jpeg" alt="" class="carousel-img-blur" aria-hidden="true" />
+                <img src="3new_clean.jpeg" alt="Recent photo 3" class="carousel-img" />
+                <div class="slide-caption">Traditional elegance — absolutely royal! 👑🎉</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn next-btn" id="nowNext" aria-label="Next photo">&#8594;</button>
+        </div>
+
+        <div class="carousel-dots" id="nowDots" role="tablist" aria-label="Recent photos">
+          <button class="dot active" data-index="0" aria-label="Photo 1" role="tab"></button>
+          <button class="dot" data-index="1" aria-label="Photo 2" role="tab"></button>
+          <button class="dot" data-index="2" aria-label="Photo 3" role="tab"></button>
+        </div>
+      </div>
+
+      <!-- Right side: Three Facts card -->
+      <aside class="now-card now-card-right reveal">
+        <div class="now-card-tag">🎉 Certified Facts</div>
+        <h3 class="now-card-heading">Top 3 Standouts</h3>
+        <ul class="now-reasons-list">
+          <li>
+            <span class="reason-icon">🌟</span>
+            <div class="reason-content">
+              <strong>Unmatched Style</strong>
+              <p>Bringing effortless elegance everywhere you go.</p>
+            </div>
+          </li>
+          <li>
+            <span class="reason-icon">⚡</span>
+            <div class="reason-content">
+              <strong>Fierce Determination</strong>
+              <p>Working hard and achieving your goals step by step.</p>
+            </div>
+          </li>
+          <li>
+            <span class="reason-icon">😄</span>
+            <div class="reason-content">
+              <strong>Always Genuine</strong>
+              <p>Still the same fun, awesome person to chat with.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="now-card-badge-pill">⭐ Certified Legend</div>
+      </aside>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       MESSAGE SECTION
+  ════════════════════════════════════════ -->
+  <section class="message-section" id="message">
+    <div class="message-container reveal">
+      <div class="message-icon" aria-hidden="true">🎉</div>
+      <h2 class="message-heading">A Huge Birthday Shoutout!</h2>
+      <div class="message-divider"></div>
+
+      <p class="message-text">
+        Can't believe another year has flown by! It honestly feels like just yesterday we were kids causing chaos and laughing until our stomachs hurt, and now you're out there building an awesome life overseas.
+      </p>
+      <p class="message-text">
+        No matter the distance or how busy life gets, great memories never fade. I'm super proud of everything you've accomplished and how much you're leveling up.
+      </p>
+      <p class="message-text">
+        Wishing you massive success, good health, great food, and so many reasons to smile every single day!
+      </p>
+
+      <div class="message-signoff">
+        <p>Have the most epic birthday celebration!</p>
+        <p class="signoff-bold">Cheers & best wishes always, Mubeen 🎂🥂</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       COUNTDOWN SECTION
+  ════════════════════════════════════════ -->
+  <section class="countdown-section" id="countdown">
+    <div class="countdown-container reveal">
+      <h2 class="countdown-heading">Milestone Meter</h2>
+      <p class="countdown-sub">Time flies, but the best memories stay timeless! Counting up since day one:</p>
+
+      <div class="countdown-grid" id="countdownGrid">
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-days">--</span>
+          <span class="countdown-label">Days of Memories</span>
+        </div>
+        <div class="countdown-separator" aria-hidden="true">:</div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-hours">--</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-separator" aria-hidden="true">:</div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-minutes">--</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-separator" aria-hidden="true">:</div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-seconds">--</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       MAKE A WISH SECTION
+  ════════════════════════════════════════ -->
+  <section class="wish-section" id="wish">
+    <div class="wish-container reveal">
+      <div class="wish-candles" aria-hidden="true">🕯️ 🎂 🕯️</div>
+      <h2 class="wish-heading">Time to Make a Birthday Wish!</h2>
+      <p class="wish-sub">Close your eyes, make a big wish for the year ahead, and make it count!</p>
+      <button class="wish-btn" id="wishBtn" aria-label="Make a birthday wish">
+        <span class="wish-btn-icon" aria-hidden="true">✨</span>
+        Make a Wish
+      </button>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       MODAL — WISH POPUP
+  ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true"></div>
+  <div class="wish-modal" id="wishModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+    aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close message">&#10005;</button>
+    <div class="modal-icon" aria-hidden="true">🎂</div>
+    <h3 id="modalTitle" class="modal-title">Wish Locked In! 🚀🎉</h3>
+    <p class="modal-message">Here's to big dreams, exciting opportunities, and an amazing year ahead.</p>
+    <p class="modal-submessage">Have an absolute blast on your birthday! 🥳✨</p>
+  </div>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="footer">
+    <p>Created with 💛 by Mubeen &bull; Happy Birthday!</p>
+    <p class="footer-sub">Cheers to an incredible year ahead! 🥂✨</p>
+  </footer>
+
+  <!-- canvas-confetti via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
